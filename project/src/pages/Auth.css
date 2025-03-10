@@ -1,0 +1,133 @@
+.auth-section {
+  padding: 120px 0;
+  background-color: var(--gray);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: var(--light);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: var(--font-secondary);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  transition: var(--transition);
+}
+
+.form-input:focus {
+  border-color: var(--primary);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.2);
+}
+
+.form-input.error {
+  border-color: var(--danger);
+}
+
+.error-message {
+  color: var(--danger);
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.forgot-password {
+  color: var(--primary);
+  font-size: 0.9rem;
+}
+
+.form-submit {
+  width: 100%;
+  padding: 12px;
+  background-color: var(--primary);
+  color: var(--light);
+  font-weight: 500;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: var(--transition);
+  font-size: 1rem;
+}
+
+.form-submit:hover {
+  background-color: var(--primary-dark);
+}
+
+.form-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-footer a {
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.checkbox-group input {
+  margin-top: 4px;
+}
+
+.checkbox-group label {
+  font-size: 0.9rem;
+}
+
+.checkbox-group a {
+  color: var(--primary);
+}
+
+@media (max-width: 576px) {
+  .form-container {
+    padding: 30px 20px;
+  }
+  
+  .form-options {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
