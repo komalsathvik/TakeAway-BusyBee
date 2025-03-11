@@ -35,11 +35,10 @@ const Navbar = ({ cartItemsCount, isLoggedIn, logout }) => {
 
   return (
     <header className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
+        <div className="navbar-logo">
+          <img src='/images/TakeAwayLogo.jpg'></img>
+        </div>
       <div className="container navbar-container">
-        <Link to="/" className="navbar-logo">
-          <span className="logo-text">Tasty</span>
-          <span className="logo-accent">Takeaway</span>
-        </Link>
         
         <div className="mobile-toggle" onClick={toggleMobileMenu}>
           {isMobileMenuOpen ? <FaTimes /> : <FaBars />}

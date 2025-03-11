@@ -20,12 +20,16 @@
   justify-content: space-between;
   align-items: center;
 }
+.navbar-logo img {
+  height:55px;
+  width:55px;
+  border-radius: 50%;
+  position:fixed;
 
-.navbar-logo {
-  font-size: 1.8rem;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
+  margin-top: -12px;
+  margin-left:30px;
+  height: 10vh;
+  width:10vh;
 }
 
 .logo-text {

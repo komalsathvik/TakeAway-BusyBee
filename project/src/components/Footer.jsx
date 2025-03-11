@@ -3,37 +3,33 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        {/* Left Section */}
         <div className="footer-section">
-          <h2 className="footer-title">The Busy Bee Cafe And Catering</h2>
+          <h2 className="footer-title">The Busy Bee TakeAway</h2>
           <p className="footer-text">
-            Save time, shop online. Artisan Breads, Specialty Cakes, Coffee, and More!
+            Burgers,Pizzas,Loaded chips and many more !!!
           </p>
         </div>
 
-        {/* Middle Section - Opening Hours */}
         <div className="footer-section">
           <h2 className="footer-title">Opening Hours</h2>
           <ul className="footer-list">
             <li><span className="highlight">Tuesday</span> - 6:30am - 2pm</li>
-            <li>Wednesday - 6:30am - 2pm</li>
-            <li>Thursday - 6:30am - 2pm</li>
-            <li>Friday - 6:30am - 2pm</li>
-            <li>Saturday - 7am - 2pm</li>
-            <li>Sunday - 7am - 1:30pm</li>
-            <li>Monday - 6:30am - 2pm</li>
+            <li> MON - FRI 6AM-8PM </li>
+            <li> SAT  6AM-1PM AND 4PM-9PM</li>
+            <li>SUN  6AM-1PM</li>
           </ul>
         </div>
 
-        {/* Right Section - Contact Us */}
         <div className="footer-section">
           <h2 className="footer-title">Contact Us</h2>
-          <p className="footer-text">📍 23 Opal St Lightning Ridge, NSW</p>
-          <p className="footer-text">📞 0258194001</p>
+          <p className="footer-text"> ADDRESS
+ SHOP 1/ 53 HARBOUR ROAD
+ NORTH MACKAY</p>
+          <p className="footer-text">CALL US ON 
+          (07) 49448518</p>
         </div>
       </div>
 
-      {/* Bottom Section */}
       <div className="footer-bottom">
         <a href="#" className="privacy-policy">Privacy Policy</a>
         <p>Copyright © 2025. All rights reserved.</p>
